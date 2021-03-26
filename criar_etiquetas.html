@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST" action="enviar.php">
+        <h1>Etiqueta</h1>
+        <label>Nome da maquina</label>
+        <input name="maquina" required>
+        <br>
+        <label>Linha</label>
+        <select name="linha" required>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <label>Prioridade</label>
+        <select name="prioridade" required>
+            <option value="Baixa" selected>Baixa</option>
+            <option value="Media">Media</option>
+            <option value="Alta">Alta</option>
+        </select>
+        <br>
+        <label>Data</label>
+        <input type="date" name="data" required>
+        <br>
+        <label>Horas</label>
+        <input type="time" name="horas" required>
+        <BR>
+        <label>Descricao</label>
+        <br>
+        <textarea name="desc"></textarea>
+        <br><label>Nome operador</label>
+        <input type="text" name="operador"required><br>
+        <input type="submit" name="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

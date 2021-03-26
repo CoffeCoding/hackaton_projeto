@@ -1,0 +1,224 @@
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>RetroEscavadeira</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>RetroEscavadeira</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>RetroEscavadeira</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>Cavadeira</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>Cavadeira</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>RetroEscavadeira</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>Larg</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>11:50</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Lucas</td>
+<tr>
+</table>
+
