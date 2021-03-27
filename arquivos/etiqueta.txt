@@ -15,18 +15,18 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-04</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>12:59</td>
 </tr>
 <tr>
     <td>Descricao: </td>
-    <td> </td>
+    <td>Teste dec </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 
@@ -47,18 +47,18 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-04</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>12:59</td>
 </tr>
 <tr>
     <td>Descricao: </td>
-    <td> </td>
+    <td>Teste dec </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 
@@ -79,18 +79,18 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-04</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>12:59</td>
 </tr>
 <tr>
     <td>Descricao: </td>
-    <td> </td>
+    <td>Teste dec </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 
@@ -100,7 +100,7 @@
 
 <tr>
     <td>Nome Da Maquina: </td> 
-    <td>Cavadeira</td>
+    <td>Friaca</td>
 </tr>
 <tr>
     <td>Linha: </td>
@@ -111,18 +111,18 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-05</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>13:57</td>
 </tr>
 <tr>
     <td>Descricao: </td>
-    <td> </td>
+    <td>a </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 
@@ -132,7 +132,7 @@
 
 <tr>
     <td>Nome Da Maquina: </td> 
-    <td>Cavadeira</td>
+    <td>Rodo</td>
 </tr>
 <tr>
     <td>Linha: </td>
@@ -143,18 +143,18 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-03</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>13:00</td>
 </tr>
 <tr>
     <td>Descricao: </td>
-    <td> </td>
+    <td>asda </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 
@@ -175,18 +175,18 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-10</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>14:11</td>
 </tr>
 <tr>
     <td>Descricao: </td>
     <td> </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 
@@ -196,7 +196,7 @@
 
 <tr>
     <td>Nome Da Maquina: </td> 
-    <td>Larg</td>
+    <td>RetroEscavadeira</td>
 </tr>
 <tr>
     <td>Linha: </td>
@@ -207,18 +207,82 @@
 </tr>
 <tr>
     <td>Data: </td>
-    <td>2021-03-11</td>
+    <td>2021-03-10</td>
 </tr>
 <tr>
     <td>Horas: </td>
-    <td>11:50</td>
+    <td>14:11</td>
 </tr>
 <tr>
     <td>Descricao: </td>
     <td> </td>
 </tr>
     <td>Nome Do Operador: </td>
-    <td>Lucas</td>
+    <td>Luquinhas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>RodoAnel</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-03</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>13:00</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td>asda </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Luquinhas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>Friacalllll</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-05</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>13:57</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td>a </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Luquinhas</td>
 <tr>
 </table>
 

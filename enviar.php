@@ -55,6 +55,6 @@
     $fp2 = fopen($arquivo2, 'a+', 0);
 }
 
- fwrite($fp2, $nome_maquina. "/");
+ fwrite($fp2, $nome_maquina. ".");
  fclose($fp2);
 ?>
