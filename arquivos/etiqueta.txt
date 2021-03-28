@@ -286,3 +286,99 @@
 <tr>
 </table>
 
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td></td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td> </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td></td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td></td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td></td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td></td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td>Pa</td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td>1 </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td>Baixa</td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td>2021-03-11</td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td>16:58</td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td>Luquinhas</td>
+<tr>
+</table>
+
+
+<table>
+<h3>Etiqueta</h3>
+
+<tr>
+    <td>Nome Da Maquina: </td> 
+    <td></td>
+</tr>
+<tr>
+    <td>Linha: </td>
+    <td> </td>
+</tr>
+    <td>Prioridade:</td> 
+    <td></td>
+</tr>
+<tr>
+    <td>Data: </td>
+    <td></td>
+</tr>
+<tr>
+    <td>Horas: </td>
+    <td></td>
+</tr>
+<tr>
+    <td>Descricao: </td>
+    <td> </td>
+</tr>
+    <td>Nome Do Operador: </td>
+    <td></td>
+<tr>
+</table>
+

@@ -42,12 +42,16 @@ $array_count = array_count_values($array);
 
 <table>
 <?php
+echo "<table>";
+//Bloco Das maquinas com problemas
 $i = 0;
 for($i = 0; $i <= count($array_count) - 2; $i++){
     echo "<tr>";
-    echo "<td>" . $array_nomes[$i] . "<td>" . $array_count[$array_nomes[$i]] . "</td>";
-    echo "</tr>";
+    echo "<td>" . $array_nomes[$i] . "</td>". 
+    "<td>". $array_count[$array_nomes[$i]] . "</td>";
 }
+
+echo "</table>"
 ?>
 </table>
 
