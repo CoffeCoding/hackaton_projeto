@@ -43,14 +43,23 @@ $array_count = array_count_values($array);
 <table>
 <?php
 echo "<table>";
+
 //Bloco Das maquinas com problemas
 $i = 0;
 for($i = 0; $i <= count($array_count) - 2; $i++){
     echo "<tr>";
     echo "<td>" . $array_nomes[$i] . "</td>". 
     "<td>". $array_count[$array_nomes[$i]] . "</td>";
+
+    $falhas[$i] = $array_count[$array_nomes[$i]];
+    $nome_da_maquina[$i] = $array_nomes[$i];
 }
 
+$combinacao_lista = array_combine($nome_da_maquina, $falhas);
+arsort($combinacao_lista);
+foreach ($combinacao_lista as $key => $value) {
+    echo $key . "=>" . $value;
+}
 echo "</table>"
 ?>
 </table>
