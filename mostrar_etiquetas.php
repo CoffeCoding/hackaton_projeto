@@ -1,33 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style type="text/css">
-        table{
-            border: 1px solid black;
-        }
-    </style>
-    
-</head>
-<body>
 <?php
-$arquivo = file("arquivos/etiqueta.txt");
+$arquivo = file("../arquivos/etiqueta.txt");
 
-foreach ($arquivo as $imprime) {
-    print_r($imprime);
-}
 
-$arquivo = 'arquivos/etiqueta.txt';
+$arquivo = '../arquivos/etiqueta.txt';
 
-$nomedasmaquinas = 'arquivos/nomedasmaquinas.txt';
+$nomedasmaquinas = '../arquivos/nomedasmaquinas.txt';
+
+$linha_arquivo = "../arquivos/linha.txt";
 
 $handle = fopen( $arquivo, 'r' );
 
 $handle2 = fopen( $nomedasmaquinas, 'r' );
+
+$handle3 = fopen( $nomedasmaquinas, 'r' );
 
 $ler = fread( $handle, filesize($arquivo) );
 $ler2 = fread( $handle2, filesize($nomedasmaquinas) );
@@ -38,9 +23,7 @@ $nome_das_maquinas_str = $ler2; //Esta vindo de um arquivo, e as palavras estão
 $array = explode('.', "$nome_das_maquinas_str"); //Separo as palavras por / e gravo no array
 $array_nomes = array_values(array_unique($array));
 $array_count = array_count_values($array);
-?>
 
-<?php
 //Cria em arrays organizados.
 $i = 0;
 for($i = 0; $i <= count($array_count) - 2; $i++){
@@ -51,17 +34,9 @@ for($i = 0; $i <= count($array_count) - 2; $i++){
 
 $combinacao_lista = array_combine($nome_da_maquina, $falhas);
 arsort($combinacao_lista);
-echo "<table>";
-foreach ($combinacao_lista as $key => $value) {
-    echo " <tr> <td> $key </td> <td> $value </td> </tr>";
-}
-echo "</table>";
-?>
 
-<?php
 // Fecha o arquivo
 fclose($handle);
 fclose($handle2);
+fclose($handle3);
 ?>
-</body>
-</html>

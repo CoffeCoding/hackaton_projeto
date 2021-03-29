@@ -10,35 +10,14 @@
  $arquivo = 'arquivos/etiqueta.txt';
  $conteudo =
 "
-<table>
-<h3>Etiqueta</h3>" ."\n" . "
 <tr>
-    <td>Nome Da Maquina: </td> 
-    <td>$nome_maquina</td>
-</tr>
-<tr>
-    <td>Linha: </td>
-    <td>$linha </td>
-</tr>
-    <td>Prioridade:</td> 
-    <td>$prioridade</td>
-</tr>
-<tr>
-    <td>Data: </td>
-    <td>$data</td>
-</tr>
-<tr>
-    <td>Horas: </td>
-    <td>$horas</td>
-</tr>
-<tr>
-    <td>Descricao: </td>
-    <td>$descricao </td>
-</tr>
-    <td>Nome Do Operador: </td>
-    <td>$nome_operador</td>
-<tr>
-</table>" . "\n" . "\n";
+    <td class='columna'>$data $horas</td>
+    <td class='columnb'>$nome_operador</td>
+    <td class='columnc'>$nome_maquina</td>
+    <td class='columnd'>$linha</td>
+    <td class='columne'>$prioridade</td>
+    <td class='columnf'>$descricao</td>
+</tr>";
 
  if (!file_exists($arquivo)) {
      $fp = fopen($arquivo, 'w');
@@ -57,4 +36,15 @@
 
  fwrite($fp2, $nome_maquina. ".");
  fclose($fp2);
+
+ $arquivo3 = "arquivos/linha.txt";
+
+ if (!file_exists($arquivo3)) {
+    $fp3 = fopen($arquivo3, 'w');
+} else {
+    $fp3 = fopen($arquivo3, 'a+', 0);
+}
+
+fwrite($fp3, $linha . ".");
+fclose($fp3);
 ?>
