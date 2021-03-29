@@ -5,44 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="snippets/style.css" type="text/css" rel="stylesheet" />
     <title>Document</title>
 </head>
 
 <body>
     <form method="POST" action="enviar.php">
-        <h1>Etiqueta</h1>
-        <label>Nome da maquina</label>
-        <input name="maquina" required>
-        <br>
-        <label>Linha</label>
-        <select name="linha" required>
-            <option value="1" selected>1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <br>
-        <label>Prioridade</label>
-        <select name="prioridade" required>
-            <option value="Baixa" selected>Baixa</option>
-            <option value="Media">Media</option>
-            <option value="Alta">Alta</option>
-        </select>
-        <br>
-        <label>Data</label>
-        <input type="date" name="data" required>
-        <br>
-        <label>Horas</label>
-        <input type="time" name="horas" required>
-        <BR>
-        <label>Descricao</label>
-        <br>
-        <textarea name="desc"></textarea>
-        <br><label>Nome operador</label>
-        <input type="text" name="operador"required><br>
-        <input type="submit" name="submit" value="Enviar">
+        <div class="tabela">
+            <h1 align="center" class="titulo">Etiqueta</h1>
+            <table align="center" border="4px">
+                <tbody>
+                    <tr>
+                        <td><label>Nome da maquina</label>
+                            <input name="maquina" required>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Linha</label>
+                            <select name="linha" required>
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td><label>Prioridade</label>
+                            <select name="prioridade" required>
+                                <option value="Baixa" selected>Baixa</option>
+                                <option value="Media">Media</option>
+                                <option value="Alta">Alta</option>
+                            </select>
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td><label>Data</label>
+                            <input type="date" name="data" required>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Horas</label>
+                            <input type="time" name="horas" required>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Descricao</label>
+                            
+                            <textarea name="desc"></textarea>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Nome operador</label>
+                            <input type="text" name="operador" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="submit" value="Enviar"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
     </form>
 </body>
 
