@@ -114,6 +114,34 @@ include('../mostrar_etiquetas.php')
 								<td class="columnc"><?php echo number_format(floor($qnt_6*100)/$total,2, '.', '');?> %</td>
 							</tr>
 						</tbody>
+					</table>
+
+					<table>
+						<thead>
+							<tr class="table100-head">
+								<th class="columna">Data</td>
+								<th class="columnb">Qntd. Falhas/dia</td>
+							</tr>
+							<tbody>
+								<?php foreach ($data_e_quantidade as $key => $value) {
+									echo "<tr> <td class='columna'> $key </td> <td> $value </td> </tr>";
+								}
+								?>
+							</tbody>
+							<thead>
+							<tr class="table100-head">
+								<th>Média de falhas/dia</th>
+								<th><?php echo $total_mes / 30; ?></th>
+							</tr>
+							</thead>
+							<thead>
+								<tr class="table100-head">
+									<th>Desvio Padrão:</th>
+									<th><span style="color:red;"><?php echo $desvio_padrao ?></span></th>
+								</tr>
+							</thead>
+						</thead>
+					</table>
 				</div>
 			</div>
 		</div>
