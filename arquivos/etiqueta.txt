@@ -71,3 +71,11 @@
     <td class='columne'>Media</td>
     <td class='columnf'></td>
 </tr>
+<tr>
+    <td class='columna'>2021-03-25 15:36</td>
+    <td class='columnb'>Lucas Fiori</td>
+    <td class='columnc'>Pa</td>
+    <td class='columnd'>1</td>
+    <td class='columne'>Baixa</td>
+    <td class='columnf'></td>
+</tr>
