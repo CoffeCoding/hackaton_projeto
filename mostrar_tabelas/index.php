@@ -30,6 +30,8 @@
 		font-weight:bold;
 	}
 </style>
+
+<link rel="stylesheet" href="../snippets/text.css">
 </head>
 
 <?php 
@@ -38,7 +40,8 @@ include('../mostrar_etiquetas.php')
 <body>
 	<div class="limiter">
 		<div class="container-table100" style="flex-direction: column; margin-bottom: 15px">
-		<img src="../snippets/adodas.png">
+		<a href="../index.html"><img src="../snippets/adodas.png"></a>
+		<h1 class="titulo-principal" style="font-size:30px;">Aqui estão seus principais dados, Gerente</h1>
 			<div class="wrap-table100">
 				<div class="table100">
 					<table>
@@ -159,6 +162,7 @@ include('../mostrar_etiquetas.php')
 	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+	<script src="../snippets/text.js"></script>
 
 </body>
 </html>

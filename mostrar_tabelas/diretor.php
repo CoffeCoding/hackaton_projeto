@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
-
+	<link rel="stylesheet" href="../snippets/text.css">
 <style>
 	table{
 		margin-bottom: 50px;
@@ -42,8 +42,8 @@ include('../mostrar_etiquetas.php');
 <body>
 	<div class="limiter">
 		<div class="container-table100" style="flex-direction: column; margin-bottom: 15px">
-		<img src="../snippets/adodas.png">
-		<h2>GRÁFICOS DO DIRETOR:</h2>
+		<a href="../index.html"><img src="../snippets/adodas.png"></a>
+		<h1 class="titulo-principal" style="font-size: 30px">Aqui estão seus gráficos, Sr(a). Diretor(a)</h1>
 			<div style="display:flex; column-count: 2;">
             	<fieldset>
             		<img src="../graficos/grafico_bars.php">
@@ -67,6 +67,6 @@ include('../mostrar_etiquetas.php');
 	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
+	<script src="../snippets/text.js"></script>
 </body>
 </html>
