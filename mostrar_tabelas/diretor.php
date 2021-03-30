@@ -29,21 +29,29 @@
 	.linhas .columna{
 		font-weight:bold;
 	}
+
+	fieldset{
+		margin: 20px;
+	}
 </style>
 </head>
 
 <?php 
 include('../mostrar_etiquetas.php');
-
-print_r($maquinas);
 ?>
 <body>
 	<div class="limiter">
 		<div class="container-table100" style="flex-direction: column; margin-bottom: 15px">
 		<img src="../snippets/adodas.png">
-            <fieldset>
-            <img src="../graficos/grafico1.php">
-            </fieldset>
+		<h2>GRÁFICOS DO DIRETOR:</h2>
+			<div style="display:flex; column-count: 2;">
+            	<fieldset>
+            		<img src="../graficos/grafico_bars.php">
+            	</fieldset>
+				<fieldset>
+            		<img src="../graficos/grafico_pizza.php">
+            	</fieldset>
+			<div class="flex">
 		</div>
 	</div>
 

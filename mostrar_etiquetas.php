@@ -37,7 +37,7 @@ $maquinas = array();
 //Bloco Das maquinas com problemas
 $b = 0;
 for($b = 0; $b <= count($array_count) - 2; $b++){
-    $maquinas_array = array_push($maquinas, array("$array_nomes[$b]" , $array_count[$array_nomes[$b]]));
+    $maquinas_array = array_push($maquinas, array("$array_nomes[$b]", $array_count[$array_nomes[$b]]));
 }
 
 //Cria em arrays organizados.

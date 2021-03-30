@@ -63,3 +63,11 @@
     <td class='columne'>Baixa</td>
     <td class='columnf'></td>
 </tr>
+<tr>
+    <td class='columna'>2021-03-12 10:45</td>
+    <td class='columnb'>RafaelB</td>
+    <td class='columnc'>Rocadeira</td>
+    <td class='columnd'>3</td>
+    <td class='columne'>Media</td>
+    <td class='columnf'></td>
+</tr>
