@@ -25,6 +25,10 @@
 	table{
 		margin-bottom: 50px;
 	}
+
+	.linhas .columna{
+		font-weight:bold;
+	}
 </style>
 </head>
 
@@ -59,7 +63,7 @@ include('../mostrar_etiquetas.php')
 							<thead>
 								<tr class="table100-head">
 									<th>Nome da Maquina</th>
-									<th>Qtnd. falhas</th>
+									<th>Qntd. falhas</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -69,6 +73,47 @@ include('../mostrar_etiquetas.php')
     						echo " <tr> <td> $key </td> <td> $value </td> </tr>";
 							} }?>
 					</table>
+
+					<table class="linhas">
+						<thead>
+							<tr class="table100-head">
+								<th class="columna"></th>
+								<th class="columnb">Qntd. falhas</th>
+								<th class="columnc">% de falhas</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="columna">Linha 1</td>
+								<td class="columnb"><?php echo $qnt_1; ?>
+								<td class="columnc"><?php echo number_format(floor($qnt_1*100)/$total,2, '.', ''); ?> %</td>
+							</tr>
+							<tr>
+								<td class="columna">Linha 2</td>
+								<td class="columnb"><?php echo $qnt_2; ?>
+								<td class="columnc"><?php echo number_format(floor($qnt_2*100)/$total,2, '.', '');?> %</td>
+							</tr>
+							<tr>
+								<td class="columna">Linha 3</td>
+								<td class="columnb"><?php echo $qnt_3; ?>
+								<td class="columnc"><?php echo number_format(floor($qnt_3*100)/$total,2, '.', '');?> %</td>
+							</tr>
+							<tr>
+								<td class="columna">Linha 4</td>
+								<td class="columnb"><?php echo $qnt_4; ?>
+								<td class="columnc"><?php echo number_format(floor($qnt_4*100)/$total,2, '.', '');?> %</td>
+							</tr>
+							<tr>
+								<td class="columna">Linha 5</td>
+								<td class="columnb"><?php echo $qnt_5; ?>
+								<td class="columnc"><?php echo number_format(floor($qnt_5*100)/$total,2, '.', '');?> %</td>
+							</tr>
+							<tr>
+								<td class="columna">Linha 6</td>
+								<td class="columnb"><?php echo $qnt_6; ?>
+								<td class="columnc"><?php echo number_format(floor($qnt_6*100)/$total,2, '.', '');?> %</td>
+							</tr>
+						</tbody>
 				</div>
 			</div>
 		</div>

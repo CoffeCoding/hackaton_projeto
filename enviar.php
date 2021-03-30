@@ -8,6 +8,7 @@
  $nome_operador = $_POST["operador"];
 
  $arquivo = 'arquivos/etiqueta.txt';
+
  $conteudo =
 "
 <tr>
@@ -47,4 +48,16 @@
 
 fwrite($fp3, $linha . ".");
 fclose($fp3);
+
+$arquivo4 = "arquivos/data.txt";
+
+if (!file_exists($arquivo4)) {
+    $fp4 = fopen($arquivo4, 'w');
+} else {
+    $fp4 = fopen($arquivo4, 'a+', 0);
+}
+
+fwrite($fp4, $data . "#");
+fclose($fp4);
+
 ?>
