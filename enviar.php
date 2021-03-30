@@ -60,4 +60,7 @@ if (!file_exists($arquivo4)) {
 fwrite($fp4, $data . "#");
 fclose($fp4);
 
+echo"<script language='javascript' type='text/javascript'>
+          alert('Etiqueta criada com sucesso!');window.location
+          .href='index.html'</script>";
 ?>
