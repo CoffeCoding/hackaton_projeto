@@ -29,22 +29,31 @@
 	.linhas .columna{
 		font-weight:bold;
 	}
+	/* Sortable tables */
+	table.sortable thead {
+   		background-color:#eee;
+    	color:#666666;
+    	font-weight: bold;
+    	cursor: default;
+	}
 </style>
 
 <link rel="stylesheet" href="../snippets/text.css">
+<script src="js/sorttable.js"></script>
 </head>
 
 <?php 
 include('../mostrar_etiquetas.php')
 ?>
 <body>
+	<script src="http://s.codigofonte.com.br/wp-content/js/codigofonte-bar.js"></script>
 	<div class="limiter">
 		<div class="container-table100" style="flex-direction: column; margin-bottom: 15px">
 		<a href="../index.html"><img src="../snippets/adodas.png"></a>
 		<h1 class="titulo-principal" style="font-size:30px;">Aqui estão seus principais dados, Gerente</h1>
 			<div class="wrap-table100">
 				<div class="table100">
-					<table>
+					<table class="sortable">
 						<thead>
 							<tr class="table100-head">
 								<th class="columna">Data/Hora</th>
@@ -77,7 +86,7 @@ include('../mostrar_etiquetas.php')
 							} }?>
 					</table>
 
-					<table class="linhas">
+					<table class="linhas sortable">
 						<thead>
 							<tr class="table100-head">
 								<th class="columna"></th>
